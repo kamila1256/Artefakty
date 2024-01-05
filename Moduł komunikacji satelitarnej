@@ -1,1 +1,28 @@
 # Artefakt nr. 1
+Moduł bezpieczeństwa sieci oraz komunikacji między pojazdami wojskowymi jest kompleksowym systemem, który integruje różne technologie w celu 
+zapewnienia skutecznej ochrony i zarządzania danymi w środowisku wojskowym. Główne systemy tego modułu to:
+1.	Komunikacja P2P (Peer-to-Peer)
+2.	System IFF (Identification Friend or Foe)
+3.	Cisco ASA (Adaptive Security Appliance)
+4.	SIEM (Security Information and Event Management)
+
+Cały moduł bezpieczeństwa sieci i komunikacji między pojazdami wojskowymi integruje te zaawansowane technologie w celu stworzenia spójnego i 
+skutecznego systemu ochrony. Działa to nie tylko jako zapora przed cyberzagrożeniami, ale także jako narzędzie umożliwiające jednostkom wojskowym 
+pełne wykorzystanie nowoczesnych technologii komunikacyjnych w warunkach pola walki. Bezpieczeństwo, identyfikacja i szybkość reakcji są kluczowe 
+dla skutecznego działania w dynamicznym środowisku wojskowym.
+
+R1: Ataki na Komunikację P2P
+WF1 - System powinien zawierać zaawansowane mechanizmy uwierzytelniania i szyfrowania, aby zminimalizować ryzyko przechwycenia lub 
+manipulacji komunikacją P2P.
+WB1 - Wymaga się implementacji silnych protokołów szyfrowania i algorytmów uwierzytelniania, aby zabezpieczyć integralność i poufność przesyłanych 
+danych. Regularne przeglądy bezpieczeństwa powinny być przeprowadzane w celu zidentyfikowania ewentualnych luk w zabezpieczeniach.
+R2: Nieautoryzowany dostęp do Systemu IFF
+WF2 - System IFF musi umożliwiać dynamiczną aktualizację kodów identyfikacyjnych w celu uniknięcia nieporozumień oraz łatwe zarządzanie identyfikacją.
+WB2 - Wymagane jest wprowadzenie wieloetapowych procesów uwierzytelniania i autoryzacji do zarządzania identyfikacją w Systemie IFF. System 
+musi być odporny na próby manipulacji kodami identyfikacyjnymi, a wszelkie zmiany powinny być rejestrowane w celu audytu.
+R3: Ataki na Cisco ASA
+WF3 - System Cisco ASA musi być zdolny do szybkiego reagowania na zagrożenia, automatycznie dostosowując polityki bezpieczeństwa w zależności 
+od wykrytych anomalii.
+WB3 - Wprowadzenie systemu monitorowania ruchu sieciowego i regularnych aktualizacji oprogramowania Cisco ASA w celu łatwego dostosowywania się 
+do zmieniającego się krajobrazu bezpieczeństwa. Konieczne jest również ograniczenie dostępu do zarządzania Cisco ASA do upoważnionego personelu.
+
