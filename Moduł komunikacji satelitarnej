@@ -28,6 +28,9 @@ do zmieniającego się krajobrazu bezpieczeństwa. Konieczne jest również ogra
 
 # Artefakt nr 2
 Moduł komunikacji satelitarnej
+System komunikacji satelitarnej dla pojazdów wojskowych obejmuje zestaw urządzeń i technologii, które umożliwiają 
+transmisję i odbiór danych przez satelity.
+
 R1. Klient wykorzysta system, aby pozyskac wrażliwe informacje z satelit
 WB1 - Wymaganie, aby cała transmisja danych między satelitą a stacją naziemną była objęta silnym
 szyfrowaniem end-to-end w celu ochrony poufności informacji.
