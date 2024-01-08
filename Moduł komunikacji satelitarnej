@@ -59,24 +59,13 @@ Moduł służący do zakłócania systemu przeciwnika
 Opiera się na technologii RF, czyli przesyłaniu danych poprzez fale radiowe. Jest wykorzystywany w wojnie elektronicznej do zakłócania lub 
 oszukiwania wrogich systemów komunikacyjnych, nawigacyjnych i radarowych. Pojazdy wojskowe mogą wykorzystywać sprzęt zagłuszający do zakłócania 
 sygnałów wroga lub wykorzystywać elektroniczne środki zaradcze w celu ochrony przed nadchodzącymi zagrożeniami.
-Ryzyka, które dotyczą etapu projketowania tego modułu to: niedostateczna komunikacja w zespole, zmiany w wymaganiach oraz zależność od zewnętrznych 
-dostawców. Ryzyka w etapie końcowym to: wykrycie przez przeciwnika, błędy w oprogramowaniu oraz problemy z integracją.
-Wymagania funcjonalne to :
-WF1 - Zakres Częstotliwości: Technologia zakłócania musi być zdolna do operowania na odpowiednich zakresach częstotliwości, aby 
-efektywnie zakłócać konkretne systemy przeciwnika. 
-WF2 - Zakres Oddziaływania: Wymagane jest określenie zakresu oddziaływania, tj. odległości i obszaru, w jakim zakłócenie ma być skuteczne. 
-WF3 - Adaptacyjność: Technologia powinna być elastyczna i zdolna do dostosowywania się do różnych rodzajów systemów przeciwnika oraz do 
-zmieniających się warunków środowiskowych. 
-WF4 - Moc i Skuteczność: Wymagana jest wystarczająca moc sygnału, aby skutecznie zakłócać systemy przeciwnika, jednocześnie minimalizując 
-ryzyko niepożądanych skutków.
-Do wymagań bezpieczeństwa należy wymienić :
-WB1 - Bezpieczeństwo Informacji: Ochrona informacji związanych z technologią przed nieuprawnionym dostępem, aby uniknąć ujawnienia tajemnic 
-wojskowych. 
-WB2 - Nieingerencja: Technologia zakłócania powinna minimalizować ryzyko niezamierzonej ingerencji w przyjazne systemy komunikacyjne i 
-elektroniczne. 
-WB3 - Legalność i Zgodność: Technologia powinna być zgodna z międzynarodowymi prawami, umowami i normami dotyczącymi prowadzenia działań 
-wojennych. 
-WB4 - Zabezpieczenia Przed Odwrotnym Inżynieringiem: Zapobieganie nieautoryzowanemu dostępowi i analizie technologii przez przeciwnika.
-WB5 - Bezpieczeństwo Obszaru: Ochrona personelu obsługującego technologię przed niebezpieczeństwami związanymi z promieniowaniem 
-elektromagnetycznym czy innymi aspektami bezpieczeństwa fizycznego.
+R1. Zależność od Zewnętrznych Dostawców:
+WF1 - Integracja sprzętu wojskowego od różnych dostawców.
+WB1 - Stosowanie rygorystycznych norm bezpieczeństwa.
+R2. Problemy z Integracją:
+WF2- Jasna dokumentacja dla integracji z pojazdami wojskowymi.
+WB2 - Monitorowanie integracji, analiza bezpieczeństwa.
+R3. Wykrycie przez Przeciwnika:
+WF3 - Algorytmy adaptacyjne dla skuteczności w środowisku wojskowym.
+WB3 - Zabezpieczanie komunikatów i transmisji przed wykryciem przez przeciwnika.
 
